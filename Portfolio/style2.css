@@ -31,10 +31,9 @@
   }
 }
 
-.item {
+.objet {
   width: 200px;
   height: 100px;
-  background-color: red;
   border-radius: 6px;
   position: absolute;
   left: max(calc(200px * 8), 100%);
@@ -44,34 +43,34 @@
   animation-iteration-count: infinite;
 }
 
-.item1 {
+.objet1 {
   animation-delay: calc(30s / 8 * (8 - 1) * -1);
 }
 
-.item2 {
+.objet2 {
   animation-delay: calc(30s / 8 * (8 - 2) * -1);
 }
 
-.item3 {
+.objet3 {
   animation-delay: calc(30s / 8 * (8 - 3) * -1);
 }
 
-.item4 {
+.objet4 {
   animation-delay: calc(30s / 8 * (8 - 4) * -1);
 }
 
-.item5 {
+.objet5 {
   animation-delay: calc(30s / 8 * (8 - 5) * -1);
 }
 
-.item6 {
+.objet6 {
   animation-delay: calc(30s / 8 * (8 - 6) * -1);
 }
 
-.item7 {
+.objet7 {
   animation-delay: calc(30s / 8 * (8 - 7) * -1);
 }
 
-.item8 {
+.objet8 {
   animation-delay: calc(30s / 8 * (8 - 8) * -1);
 }
