@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style2.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+/* #main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+</head>
+<body class="w3-black">
+
+  
+<!--<body style="background-color: #0a0a0a;" <style> -->
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>Acceuil</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>A propos de moi</p>
+  </a>
+  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>Projets</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>Contact</p>
+  </a>
+</nav>
+
+<!-- SIDEBAR 2-->
+<!--<div class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-animate-left" style="display:none" id="mySidebar">
+  <button class="w3-bar-item w3-button w3-large" onclick="w3_close()">&times;</button>
+  <a href="#" class="w3-bar-item w3-button">Acceuil</a>
+  <a href="#" class="w3-bar-item w3-button">About</a>
+  <a href="#" class="w3-bar-item w3-button">Projets</a>
+  <a href="#" class="w3-bar-item w3-button">Contact</a>
+</div>
+
+<div>
+  <button class="w3-button w3-white w3-xlarge" onclick="w3_open()">&#9776;</button>
+  <div class="w3-container">
+  </div>
+</div>
+
+<script>
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+}
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+}
+</script> -->
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">Acceuil</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">Moi</a>
+    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">Projets</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">Contact</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-text-white" id="home">
+    <img src="jjklogo.png" alt="boy" class="w3-image" width="300" height="500">
+    <h1 class="w3-jumbo"><span class="w3-hide-small"></span> Rodolphe PAPIN</h1>
+    <p>Eleve de Terminale STI2D</p>
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">Présentation</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p> Lycéen en Terminale STI2D, J'ai 18 ans et né en France. Je développe actuellement mes compétences en informatique, tout en aimant et pratiquant du montage vidéo chez moi parce que j'aime ca. Toujours curieux, je suis ouvert à explorer de nouveaux domaines et approfondir mes connaissances.
+    </p>
+    <h3 class="w3-padding-16 w3-text-light-grey">Compétences :</h3>
+    <p class="w3-wide">Développeur WEB</p>
+    <div class="w3-light-grey w3-round-xlarge">
+        <div class="w3-container w3-blue w3-round-xlarge" style="width:20%">20%</div>
+    </div>
+    <p class="w3-wide">Monteur Video</p>
+    <div class="w3-light-grey w3-round-xlarge">
+        <div class="w3-container w3-blue w3-round-xlarge" style="width:65%">65%</div>    </div>
+    <p class="w3-wide">Photoshop</p>
+    <div class="w3-light-grey w3-round-xlarge">
+        <div class="w3-container w3-blue w3-round-xlarge" style="width:15%">15%</div>    </div><br>
+    
+        <div class="grapper">
+          <div class="objet objet1"><a href="page1_portfolio.html"><img src="https://www.pngall.com/wp-content/uploads/15/God-Of-War-Ragnarok-Logo-PNG-Images.png" style="width:100%"></a></div>
+          <div class="objet objet2"><a href="page1_portfolio.html"><img src="https://www.pngall.com/wp-content/uploads/15/Metallica-Logo-PNG-File.png" style="width:100%"></a></div>
+          <div class="objet objet3"><a href="page1_portfolio.html"><img src="https://www.pngall.com/wp-content/uploads/15/Nirvana-Logo-PNG.png" style="width:100%"></a></div>
+          <div class="objet objet4"><a href="page1_portfolio.html"><img src="https://www.pngall.com/wp-content/uploads/15/PS5-Logo-PNG-Pic.png" style="width:100%"></a></div>
+          <div class="objet objet5"><a href="page1_portfolio.html"><img src="https://www.pngall.com/wp-content/uploads/15/Parental-Advisory-Explicit-Content-PNG-Images.png" style="width:100%"></a></div>
+          <div class="objet objet6"><a href="page1_portfolio.html"><img src="https://www.pngall.com/wp-content/uploads/15/God-Of-War-Ragnarok-Logo-PNG-Images.png" style="width:100%"></a></div>
+          <div class="objet objet7"><a href="page1_portfolio.html"><img src="https://www.pngall.com/wp-content/uploads/15/God-Of-War-Ragnarok-Logo-PNG-Images.png" style="width:100%"></a></div>
+          <div class="objet objet8"><a href="page1_portfolio.html"><img src="https://www.pngall.com/wp-content/uploads/15/God-Of-War-Ragnarok-Logo-PNG-Images.png" style="width:100%"></a></div>
+      </div>
+
+      <h3 class="w3-padding-24 w3-text-light-grey"> Arduino :</h3>
+      <p> <h4><strong>Qu'est-ce qu'Arduino ? </strong></h4> <br> <br>
+
+        Arduino est une plateforme open-source de prototypage électronique. Elle comprend : <br> <br>
+        
+            Des cartes électroniques programmables : comme l'Arduino Uno, Mega, ou Nano. Ces cartes contiennent un microcontrôleur qui peut exécuter des programmes pour interagir avec des capteurs, des moteurs, des LED, et plus. <br> <br>
+            Un environnement de développement intégré (IDE) : c'est un logiciel utilisé pour écrire, compiler, et téléverser des programmes vers les cartes Arduino. <br> 
+        
+        Arduino est souvent utilisé pour créer des projets DIY, de domotique, de robotique, ou d'automatisation. <br> <br>
+
+        <h4><strong>Le C++ : À quoi sert-il ?</strong></h4> <br> 
+          C++ est un langage de programmation polyvalent et puissant. Créé dans les années 1980 comme une extension du C, il est conçu pour permettre une programmation à la fois procédurale et orientée objet.
+        <br> <br>
+          <h5><strong>Pourquoi ca m'interesse ?</strong></h5> <br> 
+          Ca m'interresse car j'aime apprendre le codage en générale donc ca me permet de comprendre celui ci. <br> <br>
+
+          <h5><strong>C'est quoi les interruptions et le moniteur série dans Arduino et comment ca marche :</strong> <br> <br>
+          <strong>Les interruptions</strong> permettent au microcontrôleur d'exécuter une fonction lorsqu'un évènement survient sur une des broches d'interruption. <br> 
+          <strong>Le moniteur série</strong> est un outil intégré à l’IDE Arduino qui permet de communiquer entre ton ordinateur et ta carte Arduino. Il est utilisé pour :
+          Afficher des données (par exemple, des valeurs de capteurs ou des messages de débogage).
+          Envoyer des commandes à la carte Arduino depuis ton ordinateur (exemple : activer ou désactiver un système en tapant une commande).
+          <br><br>
+          <div class="w3-container w3-center w3-text-white">
+            <h2> Voici une carte Arduino :</h2>
+            <p></p>
+          </div>
+          
+          <div class="w3-content" style="max-width:600px">
+            <img class="mySlides" src="carte_arduino2.jpg" style="width:100%;display:none">
+            <img class="mySlides" src="carte_arduino1.jpg" style="width:100%">
+            <img class="mySlides" src="carte_arduino3.jpg" style="width:100%;display:none">
+          
+            <div class="w3-row-padding w3-section">
+              <div class="w3-col s4">
+                <img class="demo w3-opacity w3-hover-opacity-off" src="carte_arduino2.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(1)">
+              </div>
+              <div class="w3-col s4">
+                <img class="demo w3-opacity w3-hover-opacity-off" src="carte_arduino1.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(2)">
+              </div>
+              <div class="w3-col s4">
+                <img class="demo w3-opacity w3-hover-opacity-off" src="carte_arduino3.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(3)">
+              </div>
+            </div>
+          </div>
+          
+          <script>
+          function currentDiv(n) {
+            showDivs(slideIndex = n);
+          }
+          
+          function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("demo");
+            if (n > x.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = x.length}
+            for (i = 0; i < x.length; i++) {
+              x[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
+            }
+            x[slideIndex-1].style.display = "block";
+            dots[slideIndex-1].className += " w3-opacity-off";
+          }
+          </script>
+          
+        <h4><strong>Programmes Arduino que j'ai produits :</strong></h4> <br> <br> 
+
+        <div class="w3-container w3-blue w3-center">
+          <h1>Programmes Arduino que j'ai produits :</h1>
+        </div>
+        
+        <div class="w3-row-padding w3-margin-top">
+          <div class="w3-third">
+            <div class="w3-card">
+              <img src="code_arduinoMoniteur-LCD.PNG" style="width:100%">
+              <div class="w3-container w3-text-white">
+                <h5>Ce code permet de pouvoir à travers un moniteur série interagire avec un écran LCD qui lui affichant un texte, de le faire bouger.</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="w3-third">
+            <div class="w3-card">
+              <img src="code_arduinoLCD-gauchedroite.PNG" style="width:100%">
+              <div class="w3-container w3-text-white">
+                <h5>Ce code permet de faire bouger un texte afficher sur un écran LCD de gauche à droite.</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="w3-row-padding w3-margin-top">
+          <div class="w3-third">
+            <div class="w3-card">
+              <img src="code_arduinofeutricolore.PNG" style="width:100%">
+              <div class="w3-container">
+                <h5>Manarola</h5>
+              </div>
+            </div>
+          </div>
+        
+          <div class="w3-third">
+            <div class="w3-card">
+              <img src="img_corniglia.jpg" style="width:100%">
+              <div class="w3-container">
+                <h5>Corniglia</h5>
+              </div>
+            </div>
+          </div>
+        
+          <div class="w3-third">
+            <div class="w3-card">
+              <img src="img_riomaggiore.jpg" style="width:100%">
+              <div class="w3-container">
+                <h5>Riomaggiore</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+  </p>
+
+
+
+
+    <!-- Testimonials -->
+    <h3 class="w3-padding-24 w3-text-light-grey">Mes avis :</h3>  
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Emmanuel_Macron_March_2024_%284%29.jpg/800px-Emmanuel_Macron_March_2024_%284%29.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:50px">
+    <p><span class="w3-large w3-margin-right">Emmanuel Macron</span>Président</p>
+    <p>Rodolphe le goat m'a sauvé d'un désastre planétaire</p><br>
+    
+    <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTylcWMdKvrdW88y8JhlrkqTxwIFnVBIzYE6Svp6I2pSo6d1J6k" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Ariana Grande</span> Chanteuse</p>
+    <p>Personne n'est meilleur que lui !</p>
+  <!-- End About Section -->
+  </div>
+  
+  <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content" id="photos">
+    <h2 class="w3-text-light-grey">Mes Projets</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="wrapper">
+        <div class="item"><a href="page_projet1.html"><img src="https://i0.wp.com/fablab.com/wp-content/uploads/2020/09/arduino.jpg?resize=1024%2C683&ssl=1" style="width:100%"></a></div>
+        <div class="item"><a href="page1_portfolio.html"><img src="COMING-SOON.jpg" style="width:100%"></a></div>
+        <div class="item"><a href="page1_portfolio.html"><img src="COMING-SOON.jpg" style="width:100%"></a></div>
+    </div>
+
+      <!--<div class="w3-half">
+        <div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div>
+        <a href="page1_portfolio.html"><img src="https://images.unsplash.com/photo-1634712282287-14ed57b9cc89?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3" style="width:100%"></a>
+      </div> -->
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact moi </h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Béziers, France</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Tel : 0707070707</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: rodolphepapin@test.com</p>
+    </div><br>
+    <p>Communiquons ensemble. Envoyez-moi un message :</p>
+
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Nom" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Sujet" required name="Subject"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> Envoyer le message
+        </button>
+      </p>
+    </form>
+  <!-- End Contact Section -->
+  <div class="w3-center ">
+    <div class="w3-bar">
+      <a href="#" class="w3-button">[ACCEUIL]</a>
+      <a href="#about" class="w3-button">[ABOUT]</a>
+      <a href="#photos" class="w3-button">[PROJETS]</a>
+      <a href="#contact" class="w3-button">[CONTACT]</a>
+    </div>
+  </div>
+  
+    <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>

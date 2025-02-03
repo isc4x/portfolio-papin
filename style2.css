@@ -1,0 +1,76 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+.grapper {
+  width: 90%;
+  max-width: 1536px;
+  margin-inline: auto;
+  position: relative;
+  height: 100px;
+  margin-top: 5rem;
+  overflow: hidden;
+  mask-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 1) 20%,
+    rgba(0, 0, 0, 1) 80%,
+    rgba(0, 0, 0, 0)
+  );
+}
+
+@keyframes scrollLeft {
+  to {
+    left: -200px;
+  }
+}
+
+.objet {
+  width: 200px;
+  height: 100px;
+  border-radius: 6px;
+  position: absolute;
+  left: max(calc(200px * 8), 100%);
+  animation-name: scrollLeft;
+  animation-duration: 30s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.objet1 {
+  animation-delay: calc(30s / 8 * (8 - 1) * -1);
+}
+
+.objet2 {
+  animation-delay: calc(30s / 8 * (8 - 2) * -1);
+}
+
+.objet3 {
+  animation-delay: calc(30s / 8 * (8 - 3) * -1);
+}
+
+.objet4 {
+  animation-delay: calc(30s / 8 * (8 - 4) * -1);
+}
+
+.objet5 {
+  animation-delay: calc(30s / 8 * (8 - 5) * -1);
+}
+
+.objet6 {
+  animation-delay: calc(30s / 8 * (8 - 6) * -1);
+}
+
+.objet7 {
+  animation-delay: calc(30s / 8 * (8 - 7) * -1);
+}
+
+.objet8 {
+  animation-delay: calc(30s / 8 * (8 - 8) * -1);
+}
